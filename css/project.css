@@ -8,10 +8,10 @@
     grid-template-columns: 40px 50px auto 50px 40px;
     grid-template-rows: 150px 35px auto 50px;
     grid-template-areas: 
-    'hd hd hd hd'
-    'nv nv nv nv'
-    '. mn mn .'
-    'ft ft ft ft';
+    'hd hd hd hd hd'
+    'nv nv nv nv nv'
+    '. mn mn mn .'
+    'ft ft ft ft ft';
 }
 
 h1{
@@ -43,12 +43,17 @@ nav {
 
 main {
     grid-area: mn;
-    margin: 10px;
+    margin: 30px;
     padding: 10px;
-    background-color: cadetblue;
+
 }
 
 footer {
     grid-area: ft;
-    background-color: crimson;
+    background-color: #CB0000;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
 }
