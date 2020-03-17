@@ -125,3 +125,17 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+#ljus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+    height: auto;
+}
+
+#logg {
+    border-style: dotted;
+    padding: 30px
+}
