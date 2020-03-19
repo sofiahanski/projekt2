@@ -18,22 +18,24 @@
         <input type="checkbox" id="toggle">
         <div class="menu">
             
-            <div><a href="index.html">Hem</a></div>
-            <a href="bok.html">Bokning</a>
-            <a href="his.html">Historia</a>
-            <a href="kon.html">Kontakter</a>
-            <a href="log.html">Logga In</a>
+            <div class="space"><a href="index.html">Hem</a></div>
+            <div class="space"><a href="bok.html">Bokning</a></div>
+            <div class="space"><a href="his.html">Historia</a></div>
+            <div class="space"><a href="kon.html">Kontakter</a></div>
+            <div class="space"><a href="log.html">Logga In</a></div>
         </div>
     </div>
 
     <main>
-        <p><h2>Logga in</h2></p>
-    <p><div id="logg">
+        <h2>Logga in</h2>
+    <p><div class="logg">
 
-        <label for="login">Username/Email:</label>
-        <input type="text" class="login" name="email"> <br> <br>
-        <label for="login">Lösenord:</label>
-        <input type="text" class="login" name="losen">
+        <h4>Användarnamn:<input type="text" placeholder="användarnamn" name="uname" required></h4> 
+    
+        <h4><p>Lösenord:
+        <input type="password" placeholder="lösenord" name="psw" required></p></h4>
+
+        <input type="submit" value="Login">
     
     </div></p>
     <footer>j</footer>
