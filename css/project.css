@@ -51,6 +51,8 @@ label {
     display: none;
 }
 
+
+
 @media only screen and (max-width: 500px) {
     label {
         display: block;
@@ -71,6 +73,9 @@ label {
         display: block;
         z-index: 6;
         background-color: white;
+    }
+    #bollar {
+        display: none;
     }
 }
 
@@ -123,6 +128,7 @@ main {
     grid-area: mn;
     margin: 0px;
     padding: 30px;
+    
 }
 
 footer {
@@ -150,3 +156,7 @@ footer {
     color: #CB0000;
 }
 
+#bollar{
+    width: 300px;
+    float: left;
+}
